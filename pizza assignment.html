@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1><marquee>Pizza hub</marquee></h1>
+    <title>Welcome to Pizza hub</title>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pizza hub</h1>
+        <table align="center">
+            <tr>
+                <td valign="bottom"><img src="C:\Samir\Learn\assignments\html,css and js fd\assignment 1\pizza.jpg" alt="pizza" width="100px" height="100px"></td>
+                <td valign="bottom"><img src="C:\Samir\Learn\assignments\html,css and js fd\assignment 1\pizza.jpg" alt="pizza" width="200px" height="200px"></td>
+                <td valign="bottom"><img src="C:\Samir\Learn\assignments\html,css and js fd\assignment 1\pizza.jpg" alt="Pizza" width="250px" height="250px"></td>
+            </tr>
+               <tr>
+              <td align="center"><h3> Small Pizza</h3></td>
+              <td align="center"><h3>   Medium Pizza</h3></td>
+              <td align="center"><h3>Large pizza</h3></td>
+
+               </tr>
+
+
+
+
+
+        </table>    
+    </header>
+    <body style="background-color:powderblue;"></body>
+    
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+              <br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Pizza Details</legend>
+                <label for="number">Number of Pizzas:</label>
+                <input type="number" id="number" name="number" min="1" max="10" required><br>
+                <label for="size">Size:</label>
+                <select id="size" name="size" required>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select><br>
+                <label>Shape:</label><br>
+                <input type="radio" id="square" name="shape" value="square">
+                <label for="square">Square</label><br>
+                <input type="radio" id="round" name="shape" value="round" checked>
+                <label for="round">Round</label><br>
+                <label for="toppings">Toppings:</label><br>
+                <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                <label for="sausage">Sausage</label><br>
+                <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+                <label for="mushrooms">Mushrooms</label><br>
+                <label for="pepperoni">Pepperoni</label><br>
+                <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                <label for="crust">Crust Type:</label><br>
+                <input type="radio" id="thin-crust" name="crust" value="thin crust" checked>
+                <label for="thin-crust">Thin Crust</label><br>
+                <input type="radio" id="deep-dish" name="crust" value="deep dish">
+                <label for="deep-dish">Deep Dish</label><br>
+              
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <input type="radio" id="take-out" name="delivery" value="take out" checked>
+                <label for="take-out">Take Out</label><br>
+                <input type="radio" id="eat-in" name="delivery" value="eat in">
+                <label for="eat-in">Eat In</label><br>
+                <input type="radio" id="delivery" name="delivery" value="delivery">
+                <label for="delivery">Delivery</label><br>
+            </fieldset>
+            <!--payment method-->
+            <fieldset>
+                  <legend>Payment Method</legend>
+                  <select name="payment">
+                    <option>Payment Method</option>
+                    <option value="1">Debit Card</option>
+                    <option value="2">Credit Card</option>
+                  </select>
+                    <br>
+                    <label> Card number:</label>
+                    <input type="text" name="cardnumber" id="cardnumber">
+                    <label>CVV</label>
+                    <input type="text" name="CVV" id="CVV">
+                    <label>Expiry Date</label>
+                    <input type="text" name="ex.date" id="exp.date">
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+           
+        </form>
+    </main>
+
+    
+    <footer>
+<p> Thank you for your order.</p>
+    </footer>
+
+    <section>
+        <p>Pizza that waters your mouth,here's an example:</p>
+        <img src="C:\Samir\Learn\assignments\html,css and js fd\assignment 1\pizza.jpg" alt="Delicious Pizza">
+    </section>
+</body>
+</html>
